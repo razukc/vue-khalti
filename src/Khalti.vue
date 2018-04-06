@@ -49,11 +49,15 @@ import KhaltiCheckout from "khalti-web"
 			},
 			merchant_extra: {
 				type: null
+			},
+			amount: {
+				type: Number,
+				default: 0
 			}
 		},
 		components: { KhaltiCheckout },
 		methods: {
-			onClick: function (payload) {
+			onClick: function () {
 				let config = {
 				    publicKey: this.publicKey,
 				    productIdentity: this.productIdentity,
@@ -62,7 +66,7 @@ import KhaltiCheckout from "khalti-web"
 				    eventHandler: this.eventHandler
 				}
 				let checkout = new KhaltiCheckout(config);
-			    checkout.show({ amount: payload.amount });
+			    checkout.show({ amount: this.amount });
 			}
 		}
 	}
