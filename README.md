@@ -5,16 +5,13 @@ VueJS component wrapper for [Khalti SDK](https://github.com/khalti/khalti-sdk-we
 [https://codesandbox.io/s/k574mxpl17](https://codesandbox.io/s/k574mxpl17)
 
 ##### Installation
-1. You'll need to install the dependency
-
+You'll need to install the dependency
 `npm install khalti-web --save`
 
-2. Install component
-
+Install component
 `npm install vue-khalti --save`
 
 ##### Usage
-
 ```
 <template>
 	<div>
