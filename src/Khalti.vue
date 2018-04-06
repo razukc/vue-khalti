@@ -62,7 +62,7 @@ import KhaltiCheckout from "khalti-web"
 				    eventHandler: this.eventHandler
 				}
 				let checkout = new KhaltiCheckout(config);
-			    checkout.show({ amount: 0 });
+			    checkout.show({ amount: 1000 });
 			}
 		}
 	}
