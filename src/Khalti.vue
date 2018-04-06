@@ -28,6 +28,10 @@ import KhaltiCheckout from "khalti-web"
 				type: String, 
 				default: "http://gameofthrones.com/buy/Dragons"
 			},
+			amount: {
+				type: Number,
+				default: 0
+			},
 			eventHandler: {
 				type: Object,
 				default: function () {
@@ -49,7 +53,7 @@ import KhaltiCheckout from "khalti-web"
 			},
 			merchant_extra: {
 				type: null
-			}
+			},
 		},
 		components: { KhaltiCheckout },
 		methods: {
@@ -62,7 +66,7 @@ import KhaltiCheckout from "khalti-web"
 				    eventHandler: this.eventHandler
 				}
 				let checkout = new KhaltiCheckout(config);
-			    checkout.show({ amount: 1000 });
+			    checkout.show({ amount: this.amount });
 			}
 		}
 	}
