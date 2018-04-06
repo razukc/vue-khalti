@@ -73,12 +73,10 @@ data () {
 ##### Access the component via `$refs`. The default event handler is `onClick`. 
 
 ```javascript
-...
 methods: {
 	onKhaltiClick () {
 		const khaltiCheckout = this.$refs.khaltiCheckout
 		khaltiCheckout.onClick()
 	}
 }
-...
 ```
