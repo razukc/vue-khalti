@@ -69,6 +69,30 @@ Install component
 </template>
 ```
 
+#### Change apperance of the component
+##### Wrap your code inside `<vue-khalti>`.
+```
+	<template>
+		<div>
+			<vue-khalti ref="khaltiCheckout">
+				<img
+					src="https://d7vw40z4bofef.cloudfront.net/static/www/images/khaltilogo.png"
+					@click="onKhaltiClick" />			
+			</vue-khalti>
+		</div>
+	</template>
+```
+##### Access the event handler via `ref`. `onClick` is the default handler. 
+
+```
+methods: {
+	onKhaltiClick () {
+		const khaltiCheckout = this.$refs.khaltiCheckout
+		khaltiCheckout.onClick()
+	}
+}
+```
+
 
 
 
