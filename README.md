@@ -5,7 +5,7 @@ VueJS component wrapper for [Khalti SDK](https://github.com/khalti/khalti-sdk-we
 [https://codesandbox.io/s/k574mxpl17](https://codesandbox.io/s/k574mxpl17)
 
 ##### Installation
-You'll need to install the dependency
+Install dependency
 
 `npm install khalti-web --save`
 
@@ -15,13 +15,6 @@ Install component
 
 ##### Usage
 
-```
-<template>
-	<div>
-		<vue-khalti />
-	</div>
-</template>
-```
 ```javascript
 
 <script>
@@ -31,7 +24,13 @@ Install component
 	}
 </script>
 ```
-
+```
+<template>
+	<div>
+		<vue-khalti />
+	</div>
+</template>
+```
 ##### Overwrite default config with your config
 
 ```javascript
