@@ -47,7 +47,7 @@ var config = {
 		})
 	],
 	externals: {
-		'khalti-web': 'khaltiWeb'
+		'khalti-web': 'khalti-web'
 	}
 }
 module.exports = [
