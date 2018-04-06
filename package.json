@@ -1,6 +1,6 @@
 {
   "name": "vue-khalti",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "A Vue.js component that integrates Khalti Payment Gateway",
   "main": "dist/vue-khalti.js",
   "scripts": {
