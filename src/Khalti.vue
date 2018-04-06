@@ -49,10 +49,6 @@ import KhaltiCheckout from "khalti-web"
 			},
 			merchant_extra: {
 				type: null
-			},
-			amount: {
-				type: Number,
-				default: 0
 			}
 		},
 		components: { KhaltiCheckout },
@@ -66,7 +62,7 @@ import KhaltiCheckout from "khalti-web"
 				    eventHandler: this.eventHandler
 				}
 				let checkout = new KhaltiCheckout(config);
-			    checkout.show({ amount: this.amount });
+			    checkout.show({ amount: 0 });
 			}
 		}
 	}
