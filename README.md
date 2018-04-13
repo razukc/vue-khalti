@@ -15,6 +15,17 @@ VueJS component wrapper for [Khalti SDK](https://github.com/khalti/khalti-sdk-we
 
 #### Usage
 
+##### Browser
+```javascript
+<script src="dist/vue-khalti-min.js"></script>
+<script src="path/to/vue.js"></script>
+<script>
+	Vue.use(VueKhalti)
+</script>
+```
+
+##### Build
+
 ```javascript
 
 <script>
