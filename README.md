@@ -1,3 +1,6 @@
+# This repository is not maintained any more!!!
+Feel free to fork it
+
 #### Introduction
 VueJS component wrapper for [Khalti SDK](https://github.com/khalti/khalti-sdk-web)
 
